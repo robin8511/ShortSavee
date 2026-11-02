@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Android Studio / IDE
+.idea/
+*.iml
+.acside/
+
+# Local configuration and secrets
+local.properties
+.env
+.env.*
+!.env.example
+**/secrets.properties
+
+# APK and build outputs
+*.apk
+*.aab
+
+# Backup files
+*.backup
+*.bak
+*.before-buttons
+*.before-*
